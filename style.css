@@ -10,7 +10,6 @@
     height: 100vh;
 }
 
-// I choose banner as variable to store the information of background of my website//
 
 .logo{
     width: 200px;
@@ -18,18 +17,11 @@
     top:5%;
     left: 0%;
 }
-
-// Logo is the another variable i used to store the all kind of information to my logo which apperaed on the website//
-//It is always good so that we edit it any way we want//
-
 .banner-text{
     text-align: center;
     color: #fff;
     padding-top: 180px;
 }
-
-//by this i can add or change the text setting//
-
 .banner-text h1{
     font-size: 130px;
     font-family: 'kaushan script', cursive;
@@ -41,7 +33,6 @@
 .banner-btn{
     margin: 70px auto 0;
 }
-
 .banner-btn a{
     width: 150px;
     text-decoration: none;
@@ -52,10 +43,8 @@
     border: .5px solid #fff;
     position: relative;
     z-index: 1;
+      
 }
-
-//banner button is here to chnagge the setting or edit , it feel the information according to our website//
-
 .banner-btn a span{
     width: 0%;
     height: 100%;
@@ -66,9 +55,6 @@
     z-index: -1;
     transition: 0.5s;
 }
-
-// it is kind the variable to store the information to make the button stylish//
-
 .banner-btn a:hover span{
     width: 100%;
 }
@@ -83,9 +69,6 @@
 	left: 0;
 	background: rgba(0,0,0,0.4);
 }
-
-//navBar is used to group of link that leads to diffrent pages of website. it can be used horizontal or verticle. i used it as horizontal//
-
 .navbar ul{
 	float: right;
 	margin-right: 20px;
@@ -103,23 +86,6 @@
 	padding: 6px 13px;
 	text-decoration: none;
 	transition: .4s;
-}
-#menuBtn{
-    width: 50px;
-    height: 50px;
-    background: #009688;
-    position: fixed;
-    left: 30px;
-    border-radius: 3px;
-    z-index: 3;
-    cursor: pointer;
-}
-
-// A menuBtn is used for a website design to allow the user to quickly visit any section//
-
-#menuBtn img{
-    width: 20px;
-    margin-top: 15px;
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
